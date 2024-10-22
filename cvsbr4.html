@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação pessoal</title>
+</head>
+<body>
+    <header>
+        <h1>Análise avaliativa do Breno</h1>
+        <h2>Pesquisa de satisfação de navegação</h2>
+    </header>
+
+    <hr>
+    <br>
+
+    <form action="#" method="post">
+
+        
+        <legend>
+            <label for="nome">Nome:<p>*</p></label>
+            <input type="text" id="nome" name="nome" required>
+
+            <br>
+            <br>
+
+            <label for="email">Email:<p>*</p></label>
+            <input type="email" id="email" name="email" required>
+        </legend>
+        
+        <br>
+        <br>
+
+        <fieldset class="g1">
+            <label>Selecione sua avaliação de navegação:<p>*</p></label>
+            <label><input type="radio" name="avaliacao" value="1" required> 1 ★</label>
+            <br>
+            <br>
+            <label><input type="radio" name="avaliacao" value="2" required> 2 ★★</label>
+            <br>
+            <br>
+            <label><input type="radio" name="avaliacao" value="3" required> 3 ★★★</label>
+            <br>
+            <br>
+            <label><input type="radio" name="avaliacao" value="4" required> 4 ★★★★</label>
+            <br>
+            <br>
+            <label><input type="radio" name="avaliacao" value="5" required> 5 ★★★★★</label>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset class="g2">
+            <label for="opcoes">Selecione suas opções de feedback:<p>*</p></label>
+            <label><input type="checkbox" name="opcao" value="nav">Facilidade de navegação</label>
+            <br>
+            <br>
+            <label><input type="checkbox" name="opcao" value="des">Design do site</label>
+            <br>
+            <br>
+            <label><input type="checkbox" name="opcao" value="vel">Velocidade de carregamento</label>
+            <br>
+            <br>
+            <label><input type="checkbox" name="opcao" value="cor">Cores sensasionais</label>
+            <br>
+            <br>
+            <label><input type="checkbox" name="opcao" value="Esc">Esclarecimento dos dados</label>
+            <br>
+            <br>
+            <label><input type="checkbox" name="opcao" value="Con">Conteúdo de boa qualidade</label>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <Label for="add" class="fff">Comentários adicionais(Opcional):</Label>
+        <br>
+        <br>
+        <textarea name="add" id="add" rows="8" cols="60"></textarea>
+        <br>
+        <br>
+
+        <a href="cvsbr.html">Menu principal</a>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <pre id="dados">
+        Dados armazenados: 
+
+            "Nome": "",
+            "Email": "",
+            "Avaliação": "",
+            "Feedback": [],
+            "Comentários": ""
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+
+        header{
+            color: blueviolet;
+        }
+
+        form{
+            max-width: 750px;
+            margin: auto;
+        }
+
+        .g1{
+            background-color: cyan;
+        }
+
+        .g2{
+            background-color: cyan;
+        }
+
+        legend{
+            color: black;
+        }
+
+        button{
+            margin-top: 5px;
+            height: 30px;
+            width: none;
+            color: white;
+            background-color: green;
+        }
+
+        .fff{
+            color: rgb(240, 4, 220);
+        }
+
+        p{
+            color: red;
+        }
+
+        a{
+            color: rgb(240, 4, 220);
+        }
+
+    </style>
+</body>
+</html>
