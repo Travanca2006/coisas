@@ -6,80 +6,89 @@
     <title>Breno's document</title>
 </head>
 <body>
-    <header>
-        <h1 class="nome">Breno Travanca Tavares</h1>
-        <h2 class="periodo">Cursando IOT Turma 3 periodo verspetino</h2>
-        <h2 class="escola">Instituição Serviço Nacional de Aprendizagem Comercial(Senac) Nações Unidas</h2>
-    </header>
 
-    <hr>
+    <div>
+        <header>
+            <h1 class="nome">Breno Travanca Tavares</h1>
+            <h2 class="periodo">Cursando IOT Turma 3 periodo verspetino</h2>
+            <h2 class="escola">Instituição Serviço Nacional de Aprendizagem Comercial(Senac) Nações Unidas</h2>
+        </header>
+    </div>
 
-    <h2>Contatos:</h2>
-    <ul>
+    <br>
+
+    <div class="links">
+        <h2>Contatos:</h2>
+     <ul>
         <li>Email: brenotravancatavares@gmail.com</li>
         <li>Telefone: +55(11)97209-3469</li>
         <li>Linkedin: <a href="https://www.linkedin.com/in/breno-tavares-329128298">Clique aqui</a></li>
         <li>GitHub: <a href="https://github.com/Travanca2006/coisas.git">Clique aqui</a></li>
-    </ul>
+     </ul>
+    </div>
 
-    <hr>
+    <br>
 
-    <h2>Objetivos:</h2>
-    <p>Meu objetivo principal é me tornar um grande técnico geral na área da tecnologia, aprender os conceitos básicos até os conceitos finais para progredir nesta área desafiadora da tecnologia, tanto T.I quanto IOT.</p>
+    <div class="min">
+        <h2>Objetivos:</h2>
+     <p>Meu objetivo principal é me tornar um grande técnico geral na área da tecnologia, aprender os conceitos básicos até os conceitos finais para progredir nesta área desafiadora da tecnologia, tanto T.I quanto IOT.</p>
 
-    <hr>
+     <hr>
     
-    <h2>Formação:</h2>
-    <ol>
+     <h2>Formação:</h2>
+     <ol>
         <table>- Ensino Médio técnico em IOT</table>
         <table>- Escola Técnica Senac, São Paulo, SP</table>
         <table>- Data de início do curso: Fevereiro de 2023</table>
         <table>- Data de conclusão final: Dezembro de 2024</table>
-    </ol>
+     </ol>
 
-    <hr>
+     <hr>
 
-    <H2>Habilidades Técnicas:</H2>
-    <ul>
+     <H2>Habilidades Técnicas:</H2>
+     <ul>
         <li>Programação com Arduíno, Java, Python</li>
         <li>Conhecimentos em HTML5, CSS3, JavaScript</li>
         <li>Configuração de roteadores</li>
         <li>Análise de banco de dados</li>
         <li>Inovador em projetos de robótica</li>
-    </ul>
+     </ul>
 
-    <hr>
+     <hr>
 
-    <h2>Soft Skills:</h2>
-    <ul>
+     <h2>Soft Skills:</h2>
+     <ul>
         <li>Bom ouvinte</li>
         <li>Exelente cooperador</li>
         <li>Grande construtor de ideias</li>
         <li>Grande tomador de decisões</li>
         <li>Solucionador de problemas</li>
-    </ul>
+     </ul>
 
-    <hr>
+     <hr>
 
-    <h2>Projetos e experiências:</h2>
-    <section>- Minha equipe e eu criamos um robô seguidor de linha usando o Arduíno;</section>
-    <br>
-    <section>- Criamos um robô de multiplas ultilidades para pessoas com deficiência visual e transportador de comida para professores da Instituição;</section>
-    <br>
-    <section>- Fizemos um cabeamento estruturado de uma startup;</section>
-    <br>
-    <section>- Criação de um site com horários da copa do mundo de 2022;</section>
-    <br>
-    <section>- Criação de um ônibus automatizado.</section>
+     <h2>Projetos e experiências:</h2>
+     <section>- Minha equipe e eu criamos um robô seguidor de linha usando o Arduíno;</section>
+     <br>
+     <section>- Criamos um robô de multiplas ultilidades para pessoas com deficiência visual e transportador de comida para professores da Instituição;</section>
+     <br>
+     <section>- Fizemos um cabeamento estruturado de uma startup;</section>
+     <br>
+     <section>- Criação de um site com horários da copa do mundo de 2022;</section>
+     <br>
+     <section>- Criação de um ônibus automatizado.</section>
 
-    <hr>
+    </div>
 
     <br>
+    <br>
 
-    <a class="next" href="cvsbr2.html">Próxima página</a>
-    <br>
-    <br>
-    <a class="next2" href="cvsbr3.html">Terceira página</a>
+    <div class="n">
+     <a class="next" href="cvsbr2.html">Próxima página</a>
+     <br>
+     <br>
+     <a class="next2" href="cvsbr3.html">Terceira página</a>
+    </div>
 
     <style>
         body{
@@ -91,6 +100,10 @@
 
         header{
             background-color: yellow;
+            width: 100%;
+            height: 200px;
+            border: 1px solid black;
+
         }
 
         h1,h2{
@@ -148,6 +161,39 @@
             font-size: large;
             color: rgb(240, 4, 220);
         }
+
+        .links{
+            float: left;
+            min-height: 1000px;
+            width: 400px;
+            border: 1px solid black;
+            background-color: aliceblue;
+            border-top: 2px;
+            text-align: justify;
+            
+        }
+
+        .min{
+            margin: auto;
+            padding: auto;
+            float:right;
+            width: 1492px;
+            min-height: 300px;
+            border: 1px solid black;
+            background-color: aliceblue;
+            border-top: 2cap;
+            text-align: justify;
+        }
+
+        .n{
+            height: 100px;
+            border: 1px solid black;
+            width: 1200px;
+            text-align: right;
+            border-bottom: 10px;
+        }
+
+
     </style> 
 </body>
 </html>
