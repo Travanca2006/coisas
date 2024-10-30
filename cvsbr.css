@@ -71,7 +71,7 @@
 
         .links{
             float: left;
-            min-height: 870px;
+            min-height: 860px;
             width: 400px;
             border: 1px solid black;
             background-color: aliceblue;
@@ -90,6 +90,7 @@
             background-color: aliceblue;
             border-top: 2cap;
             text-align: justify;
+            height: auto;
         }
 
         .n{
@@ -97,7 +98,7 @@
             height: 150px;
             border: 1px solid black;
             width: 1900px;
-            text-align: right;
+            text-align :right;
             background: yellow;
             text-align: center;
         }
