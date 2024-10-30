@@ -76,8 +76,7 @@
             border: 1px solid black;
             background-color: aliceblue;
             border-top: 2px;
-            text-align: justify;
-            
+            text-align:justify;
         }
 
         .min{
@@ -101,4 +100,8 @@
             text-align :right;
             background: yellow;
             text-align: center;
+        }
+
+        img{
+            max-width: 90%;
         }
