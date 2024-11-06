@@ -94,4 +94,10 @@
 
         img{
             max-width: 99%;
+            border-radius: 3000px;
+            height: 300px;
+            width: 300px;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 50px;
         }
