@@ -1,0 +1,28 @@
+h5, p{
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flexbox;
+    height: -10px;
+    width: 1300;
+    color:black;
+}
+
+body{
+    background-image: url(images/imageazullaranja.jpg);
+}
+
+header{
+    height: 130px;
+}
+
+.next{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.next a{
+    color: yellow;
+}

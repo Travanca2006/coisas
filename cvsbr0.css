@@ -13,6 +13,7 @@ h1{
     align-items: center;
     display: flex;
     justify-content: center;
+    border: 1px solid black;
 }
 
 header {
@@ -44,3 +45,7 @@ nav a:hover {
         padding: 2px 4px; /* Adiciona um pouco de padding */
         border-radius: 4px; /* Arredonda os cantos */
     }
+
+.grid-container{
+    border: 1px solid black;
+}
