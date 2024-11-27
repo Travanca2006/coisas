@@ -42,6 +42,24 @@ header{
     color: yellow;
 }
 
+.ll{
+   text-align: left;
+   margin-left: -135%;
+   display: flex;
+}
+
+.cc{
+   text-align: left;
+   margin-left: -30%;
+   display: inline-block;
+}
+
+.rr{
+    text-align: left;
+    margin-right: -210%;
+    display: inline-block;
+}
+
 .videos{
     text-align: center;
     position: relative;
@@ -55,19 +73,20 @@ video{
 .carousel-control-prev{
     position: absolute;
     margin: auto;
-    width: 15%;
-    left: 3%;
-    height: 30vh;
-    border-radius: 50%;
+    width: 15vh;
+    left: 7%;
+    height: 10vh;
+    border-radius: 30%;
     background-color: black;
 }
 
 .carousel-control-next{
     position: absolute;
     margin: auto;
-    width: 15%;
-    right: 3%;
-    height: 30vh;
-    border-radius: 50%;
+    width: 15vh;
+    right: 7%;
+    height: 10vh;
+    border-radius: 30%;
     background-color: black
 }
+
