@@ -44,19 +44,20 @@ header{
 
 .ll{
    text-align: left;
-   margin-left: -135%;
-   display: flex;
+   margin-left: -250%;
+   background-color:deeppink;
 }
 
 .cc{
    text-align: left;
    margin-left: -20%;
+   background-color:deeppink;
 }
 
 .rr{
     text-align: left;
     margin-right: -220%;
-    display: inline-block;
+    background-color:deeppink;
 }
 
 .videos{
