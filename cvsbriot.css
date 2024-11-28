@@ -86,6 +86,11 @@ header h2 {
     background-color:deeppink;
 }
 
+.next a:hover {
+    background: #0400ff;
+    transform: scale(1.05);
+}
+
 .videos{
     text-align: center;
     position: relative;
