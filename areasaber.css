@@ -1,0 +1,170 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+  
+/* Estilo do header */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 2em 1em;
+    border-bottom: 5px solid #4e44ce;
+}
+  
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+  
+header h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 0.5em;
+}
+  
+/* Estilo do carrossel */
+#carouselExampleCaptions {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2em auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+  
+.carousel-inner {
+    position: relative;
+}
+  
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30em;
+    background-color: #e4e4e4;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  
+/* Estilo das legendas do carrossel */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+  
+.carousel-caption h5 {
+    color: white;
+    font-size: 1.8em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+  
+/* Estilo dos indicadores */
+.carousel-indicators button {
+    background-color: #4e44ce;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+  
+.carousel-indicators .active {
+    background-color: #ffb400;
+}
+  
+/* Estilo dos botões de controle */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #4e44ce;
+    border-radius: 50%;
+    padding: 10px;
+}
+  
+button.carousel-control-prev,
+button.carousel-control-next {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+  
+button.carousel-control-prev:hover,
+button.carousel-control-next:hover {
+    opacity: 1;
+}
+  
+/* Espaçamento */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 1em 0;
+}
+
+/* Estilo dos links de navegação */
+.next {
+    display: inline-block;
+    margin: 1em 0.5em;
+    text-align: center;
+}
+  
+.next a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    background: #4e44ce;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+    display: flexbox;
+}
+  
+.next a:hover {
+    background: #ffb400;
+    transform: scale(1.05);
+}
+  
+.ll {
+    background: #6a11cb;
+}
+  
+.cc {
+    background: #2575fc;
+}
+  
+.rr {
+    background: #2acbaa;
+}
+  
+.ll:hover, .cc:hover, .rr:hover {
+    background: #ffb400;
+}
+  
+/* Espaçamento */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 1em 0;
+}
+  
+br {
+    line-height: 2;
+}
